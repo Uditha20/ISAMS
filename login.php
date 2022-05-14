@@ -15,10 +15,6 @@
     left:30%
   }
 
-  body{
-    background-color: black;
-    color:white;
-  }
 </style>
   
 </head>
@@ -30,12 +26,12 @@
   <div class="container">
     <form action="admin_login.php" method="post">
       <div class="form-row pt-2 ">
-        <div class="form-group col-6 col-xxl-3 col-xl-3 col-md-4">
+        <div class="form-group col-lg-4 col-md-6 col-4">
           <label class="form-label pt-3  ">User name</label>
           <input type="text" class="form-control " id="example" placeholder="User name" name="name">
         </div>
         <div class="form-row pt-2">
-          <div class="form-group col-6 col-xxl-3 col-xl-3 col-md-4">
+          <div class="form-group col-lg-4 col-md-6 col-4">
             <label class="form-label pt-3 ">Password</label>
             <input type="password" class="form-control " id="example" placeholder="password" name="pass">
           </div>
