@@ -8,11 +8,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $name=$_POST["name"];
         $pass=$_POST["pass"]; 
 
-        $mysqli="SELECT * FROM student WHERE sname='$name' AND sid='$pass'";
+        $mysqli="SELECT * FROM admin WHERE user_name='$name' AND password='$pass'";
         $conn->query($mysqli);
-        $count=$conn->affected_rows;
+        if($conn->affected_rows>0){
+            echo "good";
+        }
+        else{
+            
+            echo '<script> alert("invalid login") </script>';
+            include("login.php");
+        }
 
-        echo $count;
+       
 
 }
 }

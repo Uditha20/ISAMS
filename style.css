@@ -151,6 +151,15 @@
   height: 400px;
   padding-right: 80px;
 }
+
+#footer-section{
+  background: rgb(240,240,240);
+}
+
+.form-position{
+  margin-top: 100px;
+  margin-left: 40%;
+}
 /*.carousel .carousel-item {
     max-height:550px;
     
