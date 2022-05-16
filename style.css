@@ -33,7 +33,7 @@
     background: #5a7ebb;
   }
   #hero .container {
-    padding-top: 70px;
+    padding-top: 50px;
   }
   #hero h1 {
     margin: 0 0 10px 0;
@@ -47,19 +47,7 @@
     margin-bottom: 50px;
     font-size: 24px;
   }
-  #hero .btn-get-started {
-    font-family: "Jost", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 28px 11px 28px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin: 10px 0 0 0;
-    color: #fff;
-    background: #47b2e4;
-  }
+
   #hero .btn-get-started:hover {
     background: #209dd8;
   }
@@ -68,7 +56,7 @@
     display: flex;
     align-items: center;
     transition: 0.5s;
-    margin: 10px 0 0 25px;
+
     color: #fff;
     line-height: 1;
   }
@@ -134,14 +122,35 @@
   
     font-size: 25px;
     margin-right: 35px;
-    border-radius: 15px;
+    padding: 5px 40px 5px 40px;
+    border-radius: 50px;
+    background: #209dd8;
+    color: white;
+
+  
 }
 
 .btn:hover{
   color:aqua;
 }
 
+#about .section-title h1{
+  text-align: center;
+  font-weight: 700;
+  line-height: 56px;
+ ;
+}
 
+#about .row-content{
+  font-size: 20px;
+  text-align: justify;
+}
+
+#about .about-img img{
+  width: 700px;
+  height: 400px;
+  padding-right: 80px;
+}
 /*.carousel .carousel-item {
     max-height:550px;
     
