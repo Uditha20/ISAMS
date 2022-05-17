@@ -11,7 +11,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $mysqli="SELECT * FROM admin WHERE user_name='$name' AND password='$pass'";
         $conn->query($mysqli);
         if($conn->affected_rows>0){
-            echo "good";
+            include("dashboard.php");
         }
         else{
             

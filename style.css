@@ -24,8 +24,6 @@
 
 }
 
-
-
 #hero {
   
     width: 100%;
@@ -152,7 +150,7 @@
   padding-right: 80px;
 }
 
-#footer-section{
+#Achivement{
   background: rgb(240,240,240);
 }
 
@@ -160,12 +158,3 @@
   margin-top: 100px;
   margin-left: 40%;
 }
-/*.carousel .carousel-item {
-    max-height:550px;
-    
-}
-
-.carousel-item img {
-    object-fit:cover;
-    max-height:550px;
-}*/
