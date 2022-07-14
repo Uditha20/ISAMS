@@ -17,6 +17,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             
             echo '<script> alert("invalid login") </script>';
             include("login.php");
+            echo "uditha";
         }
 
        
